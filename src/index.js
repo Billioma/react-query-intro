@@ -22,12 +22,12 @@ const queryClient = new QueryClient({
 
 root.render(
   <React.StrictMode>
-  <ChakraProvider theme={customTheme}>
-    <QueryClientProvider client={queryClient}>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
-    </QueryClientProvider>
+    <ChakraProvider theme={customTheme}>
+      <QueryClientProvider client={queryClient}>
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </QueryClientProvider>
     </ChakraProvider>
   </React.StrictMode>
 );
